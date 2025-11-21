@@ -58,3 +58,5 @@
 　・機能要件のFN039の1のバリデーションメッセージが11の1つ目のテスト項目のバリデーションメッセージと違った為、機能要件のバリデーションメッセージで単体テストを行いました。
 　・Laravel 8.83.29
 　　PHP 8.1.33
+　・基本設計書：https://docs.google.com/spreadsheets/d/10M0DbcGHyV7csV9TJ9OfwIC3hqJsx4vZAJstrT0D6s8/edit?gid=574125123#gid=574125123
+　　テーブル仕様書：https://docs.google.com/spreadsheets/d/10M0DbcGHyV7csV9TJ9OfwIC3hqJsx4vZAJstrT0D6s8/edit?gid=1188247583#gid=1188247583
