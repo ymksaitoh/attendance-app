@@ -1,0 +1,148 @@
+.attendance__detail-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px;
+    font-family: 'Inter', sans-serif;
+
+    background-color: #f9f5f0;
+}
+.page__title-left {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.attendance__detail-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0;
+    border-bottom: 1px solid #E1E1E1;
+    background-color: #fff;
+}
+
+.attendance__detail-item label {
+    width: 150px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.attendance__detail-item span {
+    flex: 1;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.attendance_times input,
+.break_time input {
+    width: 103px;
+    height: 29px;
+    font-size: 16px;
+    padding: 0px 5px;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.break_time {
+    display: flex;
+    gap: 5px;
+}
+
+textarea[name="reason"] {
+    width: 316px;
+    height: 72px;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    resize: none;
+    margin-left: 50px;
+}
+
+.attendance_date .year {
+    margin-right: 10px;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.attendance_date .month_day {
+    white-space: nowrap;
+    font-weight: 400;
+}
+
+.attendance_date {
+    display: flex;
+    align-items: center;
+}
+
+.attendance__detail--btn-wrapper {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.btn__edit {
+    width: 130px;
+    height: 50px;
+    font-size: 22px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn__approve {
+    width: 130px;
+    height: 50px;
+    font-size: 22px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn__approved {
+    width: 130px;
+    height: 50px;
+    font-size: 22px;
+    background-color: #696969;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.attendance__detail--btn-wrapper p {
+    color: red;
+    font-size: 18px;
+    margin: 0;
+}
+
+.error {
+    font-size: 14px;
+    color: red;
+}
+
+input[disabled],
+textarea[disabled] {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}

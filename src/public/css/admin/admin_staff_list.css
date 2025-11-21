@@ -1,0 +1,69 @@
+.staff__list-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 0 0 0;
+}
+
+.staff__list-container page__title-left {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 60px 0 30px 0;
+    text-align: left;
+    border-left: none;
+    padding-left: 0;
+}
+
+.staff__table-container {
+    width: 900px;
+    margin: 50px auto 0 auto;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.staff__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.staff__table th {
+    text-align: left;
+    padding: 12px 8px;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 2px solid #E1E1E1;
+}
+
+.staff__table td {
+    padding: 12px 8px;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 2px solid #E1E1E1;
+}
+
+.detail_link {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.detail_link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1540px) and (min-width: 1400px) {
+
+    .month__selector,
+    .attendance__table-container {
+        width: 90%;
+    }
+
+    .attendance__table th,
+    .attendance__table td {
+        padding: 10px 6px;
+    }
+
+    .month__display {
+        gap: 6px;
+    }
+}
