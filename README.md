@@ -1,7 +1,7 @@
 アプリケーション名　：　attendance-app
 
 ●環境構築
-　・git clone : リンク先URLを入れる！！
+　・git clone : https://github.com/ymksaitoh/attendance-app.git
    cd attendance-app
 　・docker-compose up -d --build
 
