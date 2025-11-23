@@ -25,10 +25,12 @@ class BreaksSeeder extends Seeder
 
             foreach ($attendances as $attendance) {
 
+                $workDate = Carbon::parse($attendance->work_date)->toDateString();
+
                 BreakTime::create([
                     'attendance_id' => $attendance->id,
-                    'break_start' => Carbon::parse($attendance->work_date . ' 12:00:00'),
-                    'break_end' => Carbon::parse($attendance->work_date . ' 13:00:00'),
+                    'break_start' => Carbon::parse($workDate . ' 12:00:00'),
+                    'break_end' => Carbon::parse($workDate . ' 13:00:00'),
                     'total_break' => 60,
                 ]);
             }
